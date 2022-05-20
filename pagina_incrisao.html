@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CENFOR SIVIO</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="estilo_login.css">
+        <link rel="stylesheet" href="estilo_da_pagina_inicial.css">
+        <link rel="stylesheet" href="script.js">
+    </head>
+    <body>
+        <!--Area do menu incial -->
+        <header class="cabecalho">
+            <ul class="menu">
+                <li class="menuprincipal"><a href="index.html">PRINCIPAL</a></li>
+                <li class="listadecursos"></li>
+                <li><a href="cursos.html">CURSOS</a></li>
+                <li><a href="sobre_nos.html">SOBRE NÓS</a></li>
+                <li><a href="pagina_incrisao.html">INSCREVER-SE</a></li>
+                <li class="registrar" value="active">
+                   <a href="registrar.html" class="conta">CRIAR CONTA</a>
+                </li>
+                <li class="login"><a href="login.html">ENTRAR</a></li>
+                <li> <input type="text" placeholder="Pesquisar" class="pesquisa"> <img src="img/img_pagina_inicial/pesquisa.png" alt="" class="iconepesquisa"></li>
+         </ul>
+        </header>
+        <div class="todoformulario">
+            <div class="formulario">
+                <form action="index.html" method="post">
+                    <legend>INCREVER-SE</legend>
+                    <img src="img/img_pagina_login/logar.png" alt="">
+                        <label>NOME: </label> <input type="text" required>
+                        <label>SELECIONE O DOCUMENTO DE IDENTIFICAÇÃO:</label><input type="file" required>
+                        <label> SELECIONE O CURSO:</label>
+                        <select name="area profissioanl" id="">
+                            <option value="informatica">INFORMÁTICA</option>
+                            <option value="informatica">TELECOMUNICAÇÕES</option>
+                            <option value="informatica">ELETRÓNICA</option>
+                            <option value="informatica">PROGARAMAÇÃO</option>
+                            <option value="informatica">REDES DE COMPUTADORES</option>
+                            <option value="informatica">HARDWARE</option>
+                            <option value="informatica">OUTRA</option>
+                        </select>
+                        <label> SELECIONE A OPÇÃO DO CURSO:</label>
+                        <select name="area profissioanl" id="">
+                            <option value="informatica">ONLINE</option>
+                            <option value="informatica">PRESENCIAL</option></select>
+                            <label> SELECIONE O HORARIO:</label>
+                            <select name="horiao" id="">
+                                <option value="07:00 - 08:30">07:00 - 08:30</option>
+                                <option value="08:30 - 10:00">08:30 - 10:00</option>
+                                <option value="10:00 - 11:30">10:00 - 11:30</option>
+                                <option value="11:30 - 13:00">11:30 - 13:00</option>
+                                <option value="13:00 - 14:30">13:00 - 14:30</option>
+                                <option value="14:30 - 16:00">14:30 - 16:00</option>
+                                <option value="16:00 - 17:30">16:00 - 17:30</option>
+                                <option value="17:30 - 19:00">17:30 - 19:00</option>
+                            </select>
+                        <input type="button" value="AVANÇAR"> 
+                </form>
+           </div>
+        </div>
+      
+        <footer class="">
+            <div class="areaderodape">
+                <div class="dialogo"><textarea name="Comentario" id="" cols="30" rows="10" placeholder="Deixe o seu comentário"></textarea>
+                    <input type="submit" value="ENVIAR">
+                </div>
+            <ul class="rodape">
+      
+                <li>INFORMAÇÕES
+                    <p>NOSSAS INSTALAÇÕES</p>
+                    <P>SOBRE NÓS</P>
+                    
+                </li>
+                <li>CONTACTOS 
+                    <p>TELEFONE: 930 566 658/ 992 218 217</p>
+                    <p>EMAIL: siviobasilio@gmail.com</p>
+                    <a href="https://www.twitter.com" class="imagensderodape" ><img src="img/img_pagina_login/twitter.png" alt=""></a>
+                    <a href="https://www.instagram.com" class="imagensderodape"><img src="img/img_pagina_login/instagram.jpg" alt=""></a>
+                    <a href="https://www.facebook.com" class="imagensderodape"><img src="img/img_pagina_inicial/download.png" alt=""></a>
+                </li>
+            </ul>
+        </div>
+        <p> COPYRIGHTY ©| SIVIO JOSÉ GOMES BASÍLIO</p>
+        </footer>
+    </body>
+</html>

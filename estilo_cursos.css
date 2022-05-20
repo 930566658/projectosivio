@@ -1,0 +1,49 @@
+.animacao{
+    margin-top: 40px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction:row;  
+}
+.imagens{
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    display: inline-block;
+}
+.imagens img{
+    border-radius: 15px;
+    margin-left: 20px;
+    height: 400px;
+    width: 300px;
+    box-shadow: 2px 4px 4px 1px rgb(87, 85, 85);
+    cursor: pointer;
+}
+.opcoes{
+    color:black;
+    position:absolute;
+    top: 300px;
+    right: 45px;
+    display:flex;
+    flex-direction:row;
+    list-style: none;
+    font-size: 12px;
+}
+.opcoes li{
+    background-color:rgb(191, 241, 126);
+    margin-left: 10px;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow:2px 2px 2px 1px rgb(121, 122, 120) ;
+}
+.opcoes li a{
+    text-decoration: none;
+    color: rgb(78, 80, 78);
+}
+.opcoes li a:hover{
+    color:white;
+}
+.opcoes li:hover{
+    background-color: rgb(37, 37, 131);
+    box-shadow:2px 2px 2px 1px rgb(26, 23, 46) ;
+}
